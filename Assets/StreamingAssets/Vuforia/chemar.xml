@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="science" size="1.000000 1.294498"/>
+        <ImageTarget name="chemistry" size="1.000000 1.294498"/>
+        <ImageTarget name="mark01.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="mark01.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="mark01.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="mark01.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="mark01.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="mark01.Left" size="1.000000 1.000000"/>
+        <MultiTarget name="mark01">
+            <Part name="mark01.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="mark01.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="mark01.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="mark01.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="mark01.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="mark01.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
